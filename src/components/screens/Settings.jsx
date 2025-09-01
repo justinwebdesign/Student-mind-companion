@@ -62,6 +62,16 @@ export default function Settings({
                   <p>• No data is sent to external servers</p>
                   <p>• You can export or delete your data anytime</p>
                 </div>
+                <div className="mt-3 pt-3 border-t border-slate-700">
+                  <a 
+                    href="/Student-mind-companion/privacy.html" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-blue-400 hover:text-blue-300 underline"
+                  >
+                    View Privacy Policy
+                  </a>
+                </div>
               </div>
             </div>
           </TabsContent>
