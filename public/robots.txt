@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://justinwebdesign.github.io/Student-mind-companion/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
