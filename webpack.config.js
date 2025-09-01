@@ -5,11 +5,12 @@ module.exports = {
   // If your entry file is src/index.jsx instead of src/index.js, change this line:
   entry: "./src/index.js",
   output: {
-    filename: "bundle.[contenthash].js",
-    path: path.resolve(__dirname, "dist"),
-    clean: true,
-    publicPath: "/",
-  },
+    output: {
+  filename: "bundle.[contenthash].js",
+  path: path.resolve(__dirname, "dist"),
+  clean: true,
+  publicPath: "/Student-mind-companion/",   // <-- IMPORTANT for GitHub Pages
+},
   mode: "development",
   devtool: "source-map",
   module: {
