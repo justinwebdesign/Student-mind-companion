@@ -1,0 +1,11 @@
+/* Ensure this file is processed by Tailwind via PostCSS, not loaded directly as plain CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for a cool look */
+body {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+html, body, #root { height: 100%; }
